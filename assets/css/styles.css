@@ -617,6 +617,7 @@ a {
     height: 28px;
     border-radius: 3px;
     margin-left: 16px;
+    background: #f9f9f9;
 }
 
 .footer .social-link:first-child {
