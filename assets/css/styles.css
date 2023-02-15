@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
     --primary-color: #0f1b4c;
@@ -57,6 +62,8 @@ a {
 }
 
 .hero-wrap {
+    display: flex;
+    align-items: center;
     position: relative;
     background-color: #e6f0ff;
     height: calc(100vh - 86px);
@@ -96,13 +103,14 @@ a {
 }
 
 .navbar .action-btn {
-    padding: 13px 16px;
+    /* padding: 13px 16px; */
+    padding: 10px 22px;
     margin-left: 18px;
     border-radius: 8px;
 }
 
 .hero {
-    padding-top: 130px;
+    /* padding-top: 130px; */
 }
 
 .hero .info {
