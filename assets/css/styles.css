@@ -59,14 +59,14 @@ a {
 .hero-wrap {
     position: relative;
     background-color: #e6f0ff;
-    height: 100vh;
+    height: calc(100vh - 86px);
 }
 
 .navbar {
     display: flex;
     align-items: center;
     /* padding-top: 38px; */
-    padding: 12px 0px;
+    padding: 18px 0px;
 }
 
 .navbar ul {
